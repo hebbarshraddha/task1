@@ -1,7 +1,6 @@
 {
   "name": "bintern1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -15,5 +14,7 @@
     "express": "^4.18.2",
     "mongoose": "^8.0.1",
     "nodemon": "^3.0.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
