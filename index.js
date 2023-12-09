@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 
 
 
-mongoose.connect('mongodb+srv://******:*********@cluster0.tzy67ux.mongodb.net/?retryWrites=true&w=majority',).then((response)=>{console.log('Connected to database');}) .catch((error)=>{console.log(error);});
+mongoose.connect('mongodb+srv://*******:*********@cluster0.tzy67ux.mongodb.net/?retryWrites=true&w=majority',).then((response)=>{console.log('Connected to database');}) .catch((error)=>{console.log(error);});
 
 
 
