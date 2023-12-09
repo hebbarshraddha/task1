@@ -13,16 +13,10 @@ app.use(bodyParser.urlencoded({
 
 
 
-mongoose.connect('mongodb+srv://shrad30:15367322X@cluster0.tzy67ux.mongodb.net/?retryWrites=true&w=majority',).then((response)=>{console.log('Connected to database');}) .catch((error)=>{console.log(error);});
+mongoose.connect('mongodb+srv://******:*********@cluster0.tzy67ux.mongodb.net/?retryWrites=true&w=majority',).then((response)=>{console.log('Connected to database');}) .catch((error)=>{console.log(error);});
 
 
 
-//mongoose.connect('mongodb+srv://shrad30:15367322X@cluster0.tzy67ux.mongodb.net/personal-task-manager?retryWrites=true&w=majority',).then((response)=>
-  //              {console.log("Connected to the database");}).catch((error)=>{console.log(error);}); 
-//mongoose.connect('mongodb+srv://shrad30:15367322X@cluster0.tzy67ux.mongodb.net/personal-task-manager?retryWrites=true&w=majority',{
-    //useNewUrlParser:true,
-    //useUnifiedTopology:true
-//});
 var db=mongoose.connection;
 
 db.on("error",()=>console.log("error in database"));
